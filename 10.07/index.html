@@ -15,20 +15,27 @@
 
 <body>
 
-    <svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-        <defs>
-        <symbol id="icon-book-square" viewBox="0 0 33 32">
-        <path fill="#fcfcfc" style="fill: var(--color1, #fcfcfc)" d="M21.626 2.666h-11.173c-4.853 0-7.747 2.893-7.747 7.747v11.16c0 4.867 2.893 7.76 7.747 7.76h11.16c4.853 0 7.747-2.893 7.747-7.747v-11.173c0.013-4.853-2.88-7.747-7.733-7.747zM15.373 23c0 0.48-0.48 0.8-0.92 0.613-1.613-0.693-3.72-1.333-5.187-1.52l-0.253-0.027c-0.813-0.107-1.48-0.867-1.48-1.693v-10.267c0-1.027 0.827-1.787 1.84-1.707 1.667 0.133 4.133 0.933 5.68 1.813 0.213 0.12 0.32 0.347 0.32 0.573v12.213zM24.546 20.36c0 0.827-0.667 1.587-1.48 1.693l-0.28 0.027c-1.453 0.2-3.547 0.827-5.16 1.507-0.44 0.187-0.92-0.133-0.92-0.613v-12.2c0-0.24 0.12-0.467 0.333-0.587 1.547-0.867 3.96-1.64 5.6-1.787h0.053c1.027 0 1.853 0.827 1.853 1.853v10.107z"></path>
+    <svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1"
+    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <symbol id="icon-book" viewBox="0 0 33 32">
+            <path fill="#230f8a" style="fill: var(--color1, #230f8a)"
+                d="M16.024 0c8.837 0 16 7.163 16 16s-7.163 16-16 16c-8.837 0-16-7.163-16-16s7.163-16 16-16z"></path>
+            <path fill="#fcfcfc" style="fill: var(--color2, #fcfcfc)"
+                d="M19.438 7.852h-6.828c-2.966 0-4.734 1.768-4.734 4.734v6.82c0 2.974 1.768 4.742 4.734 4.742h6.82c2.966 0 4.734-1.768 4.734-4.734v-6.828c0.008-2.966-1.76-4.734-4.726-4.734zM15.617 20.277c0 0.293-0.293 0.489-0.562 0.375-0.986-0.424-2.273-0.815-3.17-0.929l-0.155-0.016c-0.497-0.065-0.904-0.53-0.904-1.035v-6.274c0-0.627 0.505-1.092 1.124-1.043 1.018 0.081 2.526 0.57 3.471 1.108 0.13 0.073 0.196 0.212 0.196 0.35v7.464zM21.223 18.664c0 0.505-0.407 0.97-0.904 1.035l-0.171 0.016c-0.888 0.122-2.167 0.505-3.153 0.921-0.269 0.114-0.562-0.081-0.562-0.375v-7.456c0-0.147 0.073-0.285 0.204-0.358 0.945-0.53 2.42-1.002 3.422-1.092h0.033c0.627 0 1.133 0.505 1.133 1.133v6.176z">
+            </path>
         </symbol>
         <symbol id="icon-arrow-down" viewBox="0 0 33 32">
-        <path fill="none" stroke="#fcfcfc" style="stroke: var(--color1, #fcfcfc)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M19.276 7.907l8.093 8.093-8.093 8.093"></path>
-        <path fill="none" stroke="#fcfcfc" style="stroke: var(--color1, #fcfcfc)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4.703 16h22.44"></path>
+            <path fill="none" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"
+                d="M19.276 7.907l8.093 8.093-8.093 8.093"></path>
+            <path fill="none" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"
+                d="M4.703 16h22.44"></path>
         </symbol>
-        </defs>
-        </svg>
+    </defs>
+</svg>
 
     <header class="header">
-        <div class="container">
+        <div class="container container--big">
             <div class="header__row">
                 <a href="#" class="header__logo">
                     <img src="images/logo.svg" alt="">
@@ -54,7 +61,7 @@
                         <div class="offer hero__offer">
                             <a href="#" class="offer__link">
                                 <img src="images/1.png" alt="">
-                                <img src="images/2.jpg" alt="">
+                                <img src="images/1.jpg" alt="">
                                 <div class="offer__text">GET 48% DISCOUNT</div>
                             </a>
                         </div>
@@ -65,15 +72,61 @@
                             Let's have a nice 
                             surfing workout
                         </h2>
-                        <div class="desc hero__desk">
+                        <div class="desc hero__desc">
                             get a satisfying surfing experience from you leave, surf until you go home, let’s book your schedule
                         </div>
                         <a href="#" class="button-with-icons">
-                            svg
+                            <svg class="icon icon-book">
+
+                                <use xlink:href="#icon-book"></use>
+                            </svg>
+                            Book Now
+                            <svg class="icon icon-arrow-down">
+                                <use xlink:href="#icon-arrow-down"></use>
+                            </svg>
                         </a>
+                    </div>
+                    <div class="hero__right">
+                        <div class="slider" style="background-image: url(images/2.jpg);">
+                            <!-- <img src="images/2.jpg" alt="" class="slider__image"> -->
+                            <div class="slider_pagination pagination">
+                                <div class="pagination__item pagination__item--active"></div>
+                                <div class="pagination__item"></div>
+                                <div class="pagination__item"></div>
+                                <div class="pagination__item"></div>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
+            </div>
+        </div>
+        <div class="man">
+            <div class="container">
+                <img src="images/3.png" alt="" class="man__image">
+                <div class="man__content">
+                    <h2 class="title man__title">Zacky Yondaime</h2>
+                    <div class="undertitle man__undertitle">athlete</div>
+                    <div class="desc man__desc">I am very happy with the complete package service provided by this surfer, just don't disappoint</div>
+                </div>
+            </div>
+        </div>
+        <div class="places">
+            <div class="container">
+                <div class="places__content">
+                    <h2 class="title Places__title"></h2>
+                    <div class="desc places__desc"></div>
+                    <form class="form places__form">
+                        <input type="text" placeholder="Pickup Location" class="form__input">
+                        <svg class="icon icon-arrow-down">
+                            <use xlink:href="#icon-arrow-down"></use>
+                        </svg>
+                        <input type="text" placeholder="Destination Location" class="form__input">
+                        <button class="form__button">
+
+                        </button>
+                    </form>
+                </div>
             </div>
         </div>
     </main>
